@@ -232,3 +232,25 @@ button:hover{
         background-position: 0% 50%;
     }
 }
+
+.unavailable{
+    color:red;
+    font-weight:bold;
+
+}
+
+.order-message{
+    background:#fff3cd;
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cancel-btn{
+    background:red;
+    color:white;
+    border: none;
+    padding: 8px 15px;
+    border-radius:5px;
+    cursor: pointer;
+}
