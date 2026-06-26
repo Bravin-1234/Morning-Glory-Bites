@@ -42,14 +42,14 @@ button{
 
 
 .cover-page{
-  height:120vh;
-  width: 100vw;
+  height:100vh;
+  width: 300vw;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin:0;
   padding:0;
   position: relative;
@@ -84,14 +84,14 @@ button{
 #about,
 #location,
 #contact{
-  padding: 0.5px;
+  padding: 15px;
   margin: 0;
 }
 
 #about h2,
 #location h2,
 #contact h2{
-  font-size: 18px;
+  font-size: 25px;
   margin: 5px 0;
 
 }
@@ -99,6 +99,6 @@ button{
 #about p,
 #location p,
 #contact p{
-  font-size: 10px;
+  font-size: 20px;
   margin: 5px 0;
 }
