@@ -1,31 +1,19 @@
 body{
     margin: 0;
     font-family: Arial, sans-serif;
-    background: rgba(255, 255, 0.15);
+    background: #ff7b00;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 400% 400%;
-    
-}
 
-body::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at top-right, rgba(255, 255, 0.15), transparent 70%);
-    pointer-events: none;
-    z-index:0;
+    
 }
 .menu-container{
     text-align: center;
     padding: 30px;
     margin: 30px auto;
     max-width: 1200px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 0, 0.15);
     border:3px solid #ffb347;
     border-radius: 25px;
     box-shadow:0 15px, 35px rgba(0,0,0,0.15);
@@ -40,7 +28,7 @@ body::before{
 }
 .menu-grid{
     display:flex;
-    gap: 100px;
+    gap: 30px;
     border-radius: 100px;
     justify-content: space-between;
     align-items: center;
@@ -51,10 +39,10 @@ body::before{
     width: 1000px;
     height: fit-content;
     gap: 100px;
-    border-radius: 60px;
+    border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     overflow: hidden;
-    background: white;
+    background: wheat;
     transition: transform 0.3s ease;
 }
 
@@ -89,32 +77,21 @@ body::before{
 
 }
 
-button{
-    background: #ff6600;
-    color: white;
-    border:none ;
-    padding: 10px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover{
-    opacity: 0.9;
-}
 
 .social-media{
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
     text-align: center;
-    background: blue;
+    background: wheat;
     color: white;
 }
 
 .social-links{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: 10px;
 }
@@ -135,7 +112,8 @@ button:hover{
 
 .hero-section{
     padding: 40px 20px;
-    background: linear-gradient(135deg, #ffb347, #ffcc33);
+    background: wheat;
+    width: 100%;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -156,7 +134,7 @@ button:hover{
     padding: 25px;
     text-align: center;
     background: #fff3e0;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .location-section h3{
@@ -169,6 +147,7 @@ button:hover{
     max-width: 500px;
     height: 250px;
     object-fit: cover;
+    border: #fff3cd;
     border-radius: 15px;
     margin-top: 15px;
 }

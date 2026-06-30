@@ -51,8 +51,7 @@ const Menu = () => {
             <p>Get Fresh coffee, nduma and eggs served with love to experience a fantabulous day💖</p>
             </div>
             
-            <div className="menu-grid">
-                <div className="social-media">
+             <div className="social-media">
         <h2>Contact me on:</h2>
         <div className="social-links">
             <a href="https://wa.me/254745406292" target="_blank">WhatsApp</a>
@@ -68,8 +67,12 @@ const Menu = () => {
             alt="Morning Glory Bites Location"
             />
         </div>
+        </div>
+
+            <div className="menu-grid">
+               
          {items.map((item, index) => (
-                    <div className="card" >
+                    <div className="card" key={index}>
                         <div className="card-content">
                           <img src={item.image} alt={item.name} />
                         <h2>{item.name}</h2>
@@ -119,7 +122,7 @@ const Menu = () => {
                 ))}
             </div>
         </div>
-    </div>
+    
               
     );
     
