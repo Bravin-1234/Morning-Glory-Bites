@@ -1,5 +1,5 @@
 body{
-    margin: none;
+    margin: 0;
     font-family: Arial, sans-serif;
     background: rgba(255, 255, 0.15);
     display: flex;
@@ -26,9 +26,9 @@ body::before{
     margin: 30px auto;
     max-width: 1200px;
     background: rgba(255, 255, 255, 0.95);
-    border:3px, solid #ffb347;
+    border:3px solid #ffb347;
     border-radius: 25px;
-    box-shadow:0 15px, 35px rgba(0,0,0,0.15)
+    box-shadow:0 15px, 35px rgba(0,0,0,0.15);
     
 }
 
@@ -193,17 +193,17 @@ button:hover{
     font-weight: 800;
     color: #ff3c00;
     text-align: center;
-    text-shadow: blue;
+    text-shadow: 0 0 10px blueviolet;
     animation: brightGlow 10s ease-in-out infinite;
 
 }
 
 @keyframes glow{
     0%{
-        text-shadow: blueviolet;
+        text-shadow: 0 0 5px blueviolet;
     }
     100%{
-        text-shadow: blueviolet;
+        text-shadow: 0 0 5px blueviolet;
     }
 }
 
